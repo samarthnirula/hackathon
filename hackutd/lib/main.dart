@@ -1,8 +1,10 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
-import 'home.dart'; // Import your home.dart file
+import 'package:hackutd/home.dart';
+import 'firebase.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await FirebaseService.init(); // 👈 initialize Firebase before app starts
   runApp(const MyApp());
 }
 
@@ -12,11 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Trading With Friends',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      // 👇 Start directly at HomePage
       home: const HomePage(),
     );
   }

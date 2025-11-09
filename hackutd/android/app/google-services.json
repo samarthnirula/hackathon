@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "341051907713",
+    "firebase_url": "https://hackathon-dcd8f-default-rtdb.firebaseio.com",
+    "project_id": "hackathon-dcd8f",
+    "storage_bucket": "hackathon-dcd8f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341051907713:android:05e25021f4a3eb0365b780",
+        "android_client_info": {
+          "package_name": "com.example.hackutd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341051907713-sf880mn891co7l4t99q7aku9mbhdq70k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchQ0jIyt6ydIZtdXGOnmuiyL2B5kc2vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341051907713-sf880mn891co7l4t99q7aku9mbhdq70k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
